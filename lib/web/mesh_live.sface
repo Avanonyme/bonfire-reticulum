@@ -1,0 +1,6 @@
+<section aria-label={l("MeshChat")}>
+  <div id="meshchat-host" phx-hook="EmbeddedApp" data-embedded-app="meshchat">
+    <p data-embedded-status role="status">{l("Preparing mesh interface…")}</p>
+    <div id="meshchat-mount" phx-update="ignore" data-embedded-mount></div>
+  </div>
+</section>
